@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.wrapper {
+  background: #fff;
+  padding: 16px;
+}
+
+section {
+  margin-bottom: 32px;
+  /*wouldnt do this in production; use class*/
+}
+
+html {
+  font-family: 'Oswald', sans-serif;
+  /*font-weight: 700;*/
+}
+
+.top-block {
+  width: 300px;
+  height: 180px;
+  background: red;
+}
+
+.top-block:nth-child(2) {
+  background: blue;
+}
+
+.top-block:nth-child(3) {
+  background: gray;
+}
+
+.second-section {
+  font-size: 20px;
+  color: #000;
+}
+
+.second-section p {
+  margin-bottom: 24px;
+}
+
+.flex {
+  display: flex;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+.third-block {
+  width: 25%;
+  height: 380px;
+  background: red;
+}
+
+.third-block:nth-child(2) {
+  width: 75%;
+  background: blue;
+}
+
+.fourth-block {
+  height: 180px;
+  width: 75%;
+  background: blue;
+}
+
+.fourth-block:nth-child(2) {
+  width: 25%;
+  background: red;
+}
+
+.gray-box {
+  width: 90%;
+  margin: auto;
+  /*could use text-align: center instead of margin*/
+  height: 180px;
+  background: gray;
+}
